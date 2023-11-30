@@ -45,6 +45,8 @@ jobs:
         coverage xml 
 
   cobertura:
+   runs-on: ubuntu-latest
+
    steps:
    - name: Codacy Coverage Reporter
      uses: codacy/codacy-coverage-reporter-action@v1
